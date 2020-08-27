@@ -7,11 +7,15 @@ public class Javabasics {
 		//System.out.println(a[0]);
 		//System.out.println(a[1]);
 		
-		for (int i=1; i<a.length;i--) {
+	     //print all elements in array
+		for (int i=0;i<2;i++) {
 			System.out.println(a[i]);
-	
 		}
-
+			
+		//print elements in reverse order for(initialise, condition,incre/decre)
+		for (int i=1;i>=0;i--) {
+			
+		System.out.println(a[i]);
+		}
+		}
 	}
-
-}
